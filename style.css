@@ -8,7 +8,7 @@ body {
 
 header {
   background: #35424a; /* Fondo oscuro */
-  color: #ffffff; /* Color del texto en blanco */
+  color: yellow; /* Color del texto en blanco */
   padding: 10px 0;
   text-align: center;
 }
