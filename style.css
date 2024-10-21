@@ -16,7 +16,6 @@ header {
 header h1 {
   color: white; 
   margin: 0; /* Elimina el margen para que se alinee mejor */
-  font-size: 2.5em; /* Aumenta el tamaño de la fuente si es necesario */
 }
 
 header p {
@@ -38,6 +37,10 @@ h1, h2 {
 
 h2 {
   margin-top: 20px; /* Espacio adicional en la parte superior */
+}
+
+h3 {
+  margin-top: 15px; /* Espacio adicional para h3 */
 }
 
 ul {
