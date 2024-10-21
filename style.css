@@ -7,14 +7,18 @@ body {
 }
 
 header {
-  background: #35424a;
-  color: #ffffff;
+  background: #35424a; /* Fondo oscuro */
+  color: #ffffff; /* Color del texto en blanco */
   padding: 10px 0;
   text-align: center;
 }
 
+header h1 {
+  color: #ffffff; /* Asegúrate de que el nombre se vea en blanco */
+}
+
 section {
-  background: #ffffff;
+  background: #ffffff; /* Fondo blanco para las secciones */
   padding: 20px;
   margin: 20px 0;
   border-radius: 5px;
@@ -22,20 +26,20 @@ section {
 }
 
 h1, h2 {
-  color: #35424a;
+  color: #35424a; /* Mantiene el color del texto para h1 y h2 */
 }
 
 h2 {
-  margin-top: 20px;
+  margin-top: 20px; /* Espacio adicional en la parte superior */
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: none; /* Elimina los puntos de la lista */
   padding: 0;
 }
 
 ul li {
-  background: #e2e2e2;
+  background: #e2e2e2; /* Fondo gris claro para los elementos de la lista */
   margin: 5px 0;
   padding: 10px;
   border-radius: 5px;
@@ -44,11 +48,11 @@ ul li {
 footer {
   text-align: center;
   padding: 10px 0;
-  background: #35424a;
-  color: #ffffff;
+  background: #35424a; /* Fondo oscuro para el pie de página */
+  color: #ffffff; /* Color del texto en blanco */
   position: relative;
   bottom: 0;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 20px; /* Espacio superior */
 }
 
