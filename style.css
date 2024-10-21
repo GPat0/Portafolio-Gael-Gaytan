@@ -8,13 +8,19 @@ body {
 
 header {
   background: #35424a; /* Fondo oscuro */
-  color: yellow; /* Color del texto en blanco */
+  color: white; /* Cambiar a blanco */
   padding: 10px 0;
   text-align: center;
 }
 
 header h1 {
-  color: yellow; /* Asegúrate de que el nombre se vea en blanco */
+  color: white; /* Asegúrate de que el nombre se vea en blanco */
+  margin: 0; /* Elimina el margen para que se alinee mejor */
+}
+
+header p {
+  color: #e0e0e0; /* Color más claro para la descripción */
+  margin-top: 5px; /* Un pequeño margen para separar */
 }
 
 section {
@@ -49,7 +55,7 @@ footer {
   text-align: center;
   padding: 10px 0;
   background: #35424a; /* Fondo oscuro para el pie de página */
-  color: #ffffff; /* Color del texto en blanco */
+  color: white; /* Color del texto en blanco */
   position: relative;
   bottom: 0;
   width: 100%;
