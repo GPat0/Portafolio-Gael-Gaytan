@@ -14,7 +14,7 @@ header {
 }
 
 header h1 {
-  color: white; /* Asegúrate de que el nombre se vea en blanco */
+  color: white; 
   margin: 0; /* Elimina el margen para que se alinee mejor */
 }
 
